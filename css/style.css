@@ -1,0 +1,363 @@
+@import 'added.css';
+body{
+    /* height: 8000px; */
+    font-family: 'Poppins', sans-serif;
+}
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     -webkit-font-sooting:antialiazed
+ }
+ header{
+     background-color:rgb(24, 23, 23);
+     clip-path: polygon(0 0,100% 0,100% 100%,70% 87%,0 100%);
+ }
+ .container{
+     max-width: 1000px;
+     padding: 0 15px;
+     margin: 0 auto;
+
+ }
+ header nav .left a{
+     color: white;
+     text-decoration: none;
+     margin-right: 1rem;
+     text-transform: uppercase;
+     transition: all .3s ease;
+ }
+ header nav .left a:hover{
+     color: rgb(20, 131, 131);
+ 
+}
+ header nav{
+     padding: 1rem 0;
+ }
+ header nav .branding{
+    margin-right:3rem; 
+ }
+ .hero{
+     padding: 2rem 0;
+ }
+ .hero .left2 img{
+     width: 400px;
+ }
+ .hero .right2{
+    color: white;
+     
+}
+ .hero .right2 h6{
+     color: rgb(0, 122, 122);
+     font-size: 1.6rem;
+     margin-bottom: 0.5rem;
+ }
+ .hero .right2 h1{
+     font-size: 3.5rem;
+     font-weight: 100;
+     line-height: 1.2;
+     margin-bottom: 2rem;
+ }
+ .hero .right2 h1 span{
+     color: rgb(0, 122, 122);
+ } 
+ .hero .right2 p{
+     line-height: 1.9;
+     margin-bottom: 2rem;
+ }
+ .hero .right2
+ {
+     margin-top: -7rem;
+ }
+ section{
+     padding: 6rem 0;
+ }
+ section.about .about-img{
+     height: 450px;
+     border-radius: 10px;
+
+ }
+ section.about h1{
+     margin-bottom: 1rem;
+     font-size: 2rem;
+     font-weight: 400;
+ }
+ section.about h1 span{
+     color: turquoise;
+ }
+ section.about h3{
+     font-size: 1.5rem;
+     margin-bottom: 1rem;
+     font-weight: 400;
+
+ }
+ section.about .social{
+     display: flex ;
+ }
+ section.about .social a{
+     background-color: black ;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     width: 35px;
+     height: 35px;
+     border-radius: 50px;
+     margin-right: 0.6rem;
+transition: all .3sec ease;
+ }
+ section.about .social a img{
+     width: 100%;
+     height: 100%;
+     padding: 0.5rem;
+ }
+ section.about .social a:hover{
+     background-color: turquoise;
+ }
+ .section-heading{
+     color:black;
+     text-align: center;
+     margin-bottom: 1rem;
+     line-height: 0.5;
+
+ }
+ .section-heading span{
+     color: turquoise;
+ }
+ .section-heading + p{
+color: rgb(54, 75, 73);
+font-family: 'Lato',sans-serif;
+margin-bottom: 8rem;
+text-align: center;
+ }
+ section.services
+ {
+     background-color: lightgray;
+ }
+ section.services .cards_rapper{
+     display: grid;
+     grid-template-columns:repeat(3,1fr);
+     grid-column-gap: 2rem ;
+     grid-row-gap: 6rem ;
+
+ }
+ section.services .cards_rapper .card{
+     background-color: white;
+     padding: 3rem 2rem;
+     position: relative;
+     padding-top: 5rem;
+     text-align: center;
+     transition: all .3s ease;
+     background-color: rgb(114, 116, 117);
+ }
+ section.services .cards_rapper .card img{
+     height: 100px;
+     position: absolute;
+     top: -3.5rem;
+     left: 50%;
+     transform: translateX(-50%);
+ }
+ section.services .cards_rapper .card h2{
+     font-weight: 400;
+     font-size: 1.2rem;
+     margin-bottom: 0.5rem;
+ }
+ section.services .cards_rapper .card p{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+color: rgb(59, 71, 71);
+line-height: 1.6;
+}
+section.services .cards_rapper .card:hover{
+    background-color: black;
+}
+section.services .cards_rapper .card:hover h1,section.services .cards_rapper .card:hover p{
+    color: white;
+}
+section.freelancer{
+    text-align: center;
+    background-color: rgba(236, 98, 98, 0.7),rgba(236, 98, 98, 0.7);
+    background: url(/image/camera.png);
+    color: white;
+    clip-path: polygon(0 0,100% 0,100% 100%,67% 80%,0 100%);
+    padding-bottom: 14rem;
+
+}
+section.freelancer h1{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+section.freelancer p{
+    margin-bottom: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section.reviews .slider .slide img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+section.reviews .slider .slide{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:0 6rem;
+}
+section.reviews .slider .slide p{
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(172, 172, 172);
+}
+section.reviews .slider .slide span{
+    font-size: 0.8rem;
+}
+section.reviews .slider-dots .dots{
+    list-style-type: none;
+    display: flex!important;
+    justify-content: center;
+}
+section.reviews .slider-dots{
+    margin-top: 3rem;
+}
+section.reviews .slider-dots button{
+    font-size: 0;
+    width: 8px;
+    height: 5px;
+    margin-right: 0.3rem;
+    border: none;
+    outline: none;
+    background-color: gray;
+    border-radius: 50px;
+    cursor: pointer;
+}
+section.reviews .dots li.slick-active button{
+
+    background-color: turquoise;
+    width: 20px;
+}
+section.work{
+    background-color: rgb(203, 209, 211);
+    
+}
+section.work .card-rapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     grid-gap: 2rem;
+
+}
+section.work .card-rapper .card1{
+    position: relative;
+    height: 250px;
+}
+section.work .card-rapper .card1 .overlay{
+ position: absolute;
+ top: 0;
+ left:0;
+width: 100%; 
+height: 100%;
+background-color: lightseagreen;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: rgb(105, 102, 105);
+opacity: 0;
+transition: all .3s ease;
+}
+section.work .card-rapper .card1 .overlay a{
+    color: black;
+    text-decoration: none;
+
+}
+section.work .card-rapper .card1 img{
+height: 100%;
+width: 100%;
+}
+section.work .card-rapper .card1:hover .overlay{
+    opacity: 0.8;
+}
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+section.blog
+{
+    background-color: rgb(71, 71, 71);
+    clip-path: polygon(0 0,100% 0,100% 100%,67% 90%,0 100%);
+    padding-bottom: 12rem;
+}
+section.blog .section-heading{
+    color: white;
+}
+section.blog .card-rapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3rem;
+}
+section.blog .card-rapper .card-blog{
+background-color: rgb(182, 182, 182);
+
+}
+section.blog .card-rapper .card-blog.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section.blog .card-rapper .card-blog .car-contain{
+padding: 1rem;
+padding-left: 2rem;
+padding-right: 2rem;
+}
+section.blog .card-rapper .card-blog .car-contain h1{
+font-size: 1rem;
+font-weight: 600;
+}
+section.blog .card-rapper .card-blog .car-contain a{
+    color: black;
+    text-decoration: none;
+}
+section.blog .card-rapper .card-blog .car-contain span{
+    color: rgb(106, 124, 151);
+}
+
+section.blog .card-rapper .card-blog .car-contain p{
+    font-family: cursive;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+section.blog .card-rapper .card-blog .car-contain a:hover{
+    color: turquoise;
+}
+/* section.contact .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3rem;
+} */
+/* section.contact .contact-rapper .card img{
+    margin-bottom: 3rem;
+   
+     
+} */
+ 
+
+/* section.contact .contact-rapper .card h1{
+    font-size: 1rem;
+} */ 
+
+footer .footer-logo{
+    margin-bottom: 3rem;
+    width: 150px;
+}
+footer{
+    background-color: rgb(165, 146, 146);
+    text-align: center;
+    padding: 5rem 0;
+    
+}
+footer .footer-socials{
+    margin-bottom: 3rem;
+    margin-right: -1rem;
+}
+/* footer .footer-socials img{
+    height: 31px;
+    width: 32px;
+} */

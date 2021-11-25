@@ -1,0 +1,42 @@
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+.justigy-bet{
+    justify-content: space-between;
+}
+.btn{
+    padding: 0.5rem 2.5rem;
+    font-size: 1rem;
+    font-weight:600;
+    border: 2px solid transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btn-primary{
+    background-color: rgb(3, 190, 190);
+    color: black;
+    transition: all 0.4s ease;
+}
+.btn-primary:hover{
+    background-color: transparent;
+    border-color:rgb(3, 190, 190);
+    color: rgb(3, 190, 190);
+}
+.btn-secondery{
+    background-color: transparent;
+    color: teal;
+    border-color: teal;
+}
+.btn-secondery:hover{
+    background-color: teal;
+    color:black;
+}
+.flex-1{
+    flex: 2;
+}
+.justigy-center{
+    justify-content: center;
+}
